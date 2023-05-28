@@ -29,6 +29,19 @@
                     <img src="{{ member.image_source }}" alt="" class="featurette-image img-fluid">
                 </div>
 
+            {% elif loop.index == 2 %}
+
+            <div class="col-md-3">
+                <img src="https://static.wikia.nocookie.net/lotr/images/d/d9/Killi.jpg" alt="" class="featurette-image img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="https://static.wikia.nocookie.net/lego/images/f/fb/Lego_fili.png" alt="" class="featurette-image img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h3>{{ loop.index }}. {{ member.name }}</h3>
+                <p>{{ member.description }}</p>
+            </div>
+
             {% else %}
 
                 <div class="col-md-5">
