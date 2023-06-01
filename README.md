@@ -1,3 +1,5 @@
+[Link to live site](https://thorin-lb.herokuapp.com/)
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Louise Benson,
